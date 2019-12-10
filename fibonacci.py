@@ -9,16 +9,16 @@ def calculate():
     # This function calculates the first 100 fibonacci sequences
 
     # Variables and lists
-    first = 1
-    second = 0
+    first_number = 1
+    second_number = 0
     fibonacci_list = []
 
     # Process
     for counter in range(100):
-        answer = first + second
+        answer = first_number + second_number
         fibonacci_list.append(answer)
-        first = second
-        second = answer
+        first_number = second_number
+        second_number = answer
     return fibonacci_list
 
 
